@@ -1,0 +1,580 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ryanherlihy/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/ryanherlihy/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'belle' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json mockups1@1.0.0 No description
+5 warn package.json mockups1@1.0.0 No repository field.
+6 warn package.json mockups1@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'belle', null ]
+9 verbose cache add name=undefined spec="belle" args=["belle",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'belle',
+10 verbose parsed url   path: 'belle',
+10 verbose parsed url   href: 'belle' }
+11 silly lockFile f8a0648f-belle belle
+12 verbose lock belle /Users/ryanherlihy/.npm/f8a0648f-belle.lock
+13 silly lockFile f8a0648f-belle belle
+14 silly lockFile f8a0648f-belle belle
+15 verbose addNamed [ 'belle', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 6ab18215-belle belle@
+18 verbose lock belle@ /Users/ryanherlihy/.npm/6ab18215-belle.lock
+19 silly addNameRange { name: 'belle', range: '*', hasData: false }
+20 verbose request where is /belle
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id c5c84775666c925e
+23 verbose url raw /belle
+24 verbose url resolving [ 'https://registry.npmjs.org/', './belle' ]
+25 verbose url resolved https://registry.npmjs.org/belle
+26 verbose request where is https://registry.npmjs.org/belle
+27 info trying registry request attempt 1 at 22:01:22
+28 http GET https://registry.npmjs.org/belle
+29 http 200 https://registry.npmjs.org/belle
+30 silly registry.get cb [ 200,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"DSXHS8C8MY71O1U5Q5VBR93W6"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '82172',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Sun, 11 Oct 2015 02:01:23 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1444528882.911161,VS0,VE269',
+30 silly registry.get     vary: 'Accept' } ]
+31 silly addNameRange number 2 { name: 'belle', range: '*', hasData: true }
+32 silly addNameRange versions [ 'belle',
+32 silly addNameRange   [ '0.0.1',
+32 silly addNameRange     '0.0.2',
+32 silly addNameRange     '0.0.3',
+32 silly addNameRange     '0.0.4',
+32 silly addNameRange     '0.0.5',
+32 silly addNameRange     '0.0.6',
+32 silly addNameRange     '0.0.7',
+32 silly addNameRange     '0.0.8',
+32 silly addNameRange     '0.0.9',
+32 silly addNameRange     '0.0.10',
+32 silly addNameRange     '0.0.11',
+32 silly addNameRange     '0.0.12',
+32 silly addNameRange     '0.0.13',
+32 silly addNameRange     '0.0.14',
+32 silly addNameRange     '0.0.15',
+32 silly addNameRange     '0.0.16',
+32 silly addNameRange     '0.0.17',
+32 silly addNameRange     '0.0.18',
+32 silly addNameRange     '0.0.19',
+32 silly addNameRange     '0.0.20',
+32 silly addNameRange     '0.0.21',
+32 silly addNameRange     '0.0.22',
+32 silly addNameRange     '0.0.23',
+32 silly addNameRange     '0.0.24',
+32 silly addNameRange     '0.0.25',
+32 silly addNameRange     '0.0.26',
+32 silly addNameRange     '0.0.27',
+32 silly addNameRange     '0.0.28',
+32 silly addNameRange     '0.0.29',
+32 silly addNameRange     '0.0.30',
+32 silly addNameRange     '0.0.31',
+32 silly addNameRange     '0.0.32',
+32 silly addNameRange     '0.0.33',
+32 silly addNameRange     '0.0.34',
+32 silly addNameRange     '0.0.35',
+32 silly addNameRange     '0.0.36',
+32 silly addNameRange     '0.0.37',
+32 silly addNameRange     '0.0.38',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.1.0',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.2.1',
+32 silly addNameRange     '1.2.2',
+32 silly addNameRange     '2.0.0-beta1' ] ]
+33 verbose addNamed [ 'belle', '1.2.2' ]
+34 verbose addNamed [ '1.2.2', '1.2.2' ]
+35 silly lockFile a1f8de38-belle-1-2-2 belle@1.2.2
+36 verbose lock belle@1.2.2 /Users/ryanherlihy/.npm/a1f8de38-belle-1-2-2.lock
+37 silly lockFile 3886bd24--npmjs-org-belle-belle-1-2-2-tgz https://registry.npmjs.org/belle/-/belle-1.2.2.tgz
+38 verbose lock https://registry.npmjs.org/belle/-/belle-1.2.2.tgz /Users/ryanherlihy/.npm/3886bd24--npmjs-org-belle-belle-1-2-2-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/belle/-/belle-1.2.2.tgz',
+39 verbose addRemoteTarball   '7e1430ca051e18bf12a4a6ce0350689694406bbe' ]
+40 info retry fetch attempt 1 at 22:01:23
+41 verbose fetch to= /var/folders/w0/pznz2pbj0_sctqk0p8df6t0m0000gn/T/npm-8544-7ePjdzv2/registry.npmjs.org/belle/-/belle-1.2.2.tgz
+42 http GET https://registry.npmjs.org/belle/-/belle-1.2.2.tgz
+43 http 200 https://registry.npmjs.org/belle/-/belle-1.2.2.tgz
+44 silly lockFile 3886bd24--npmjs-org-belle-belle-1-2-2-tgz https://registry.npmjs.org/belle/-/belle-1.2.2.tgz
+45 silly lockFile 3886bd24--npmjs-org-belle-belle-1-2-2-tgz https://registry.npmjs.org/belle/-/belle-1.2.2.tgz
+46 silly lockFile a1f8de38-belle-1-2-2 belle@1.2.2
+47 silly lockFile a1f8de38-belle-1-2-2 belle@1.2.2
+48 silly lockFile 6ab18215-belle belle@
+49 silly lockFile 6ab18215-belle belle@
+50 silly resolved [ { name: 'belle',
+50 silly resolved     version: '1.2.2',
+50 silly resolved     description: 'Configurable React Components with great UX',
+50 silly resolved     author:
+50 silly resolved      { name: 'Nik Graf',
+50 silly resolved        email: 'nik@nikgraf.com',
+50 silly resolved        url: 'http://www.nikgraf.com' },
+50 silly resolved     repository: { type: 'git', url: 'git://github.com/nikgraf/belle.git' },
+50 silly resolved     main: 'lib/index.js',
+50 silly resolved     keywords:
+50 silly resolved      [ 'browser',
+50 silly resolved        'react',
+50 silly resolved        'ux',
+50 silly resolved        'components',
+50 silly resolved        'widget',
+50 silly resolved        'javascript',
+50 silly resolved        'react-component' ],
+50 silly resolved     peerDependencies: { react: '>=0.13.0 || ^0.14.0-beta3' },
+50 silly resolved     scripts:
+50 silly resolved      { start: 'babel --watch --source-maps-inline --optional=\'es7.classProperties\' --out-dir=\'lib\' src',
+50 silly resolved        build: 'babel --out-dir=\'lib\' --optional=\'es7.classProperties\' src',
+50 silly resolved        prepublish: 'npm run build',
+50 silly resolved        postpublish: './scripts/publish_gh_pages.sh',
+50 silly resolved        pretest: 'rm -rf node_modules/react',
+50 silly resolved        test: 'babel --out-dir=\'lib\' --optional=\'es7.classProperties\' src && cd tests && npm install && ln -snf ../lib lib && cd .. && jest tests/' },
+50 silly resolved     devDependencies:
+50 silly resolved      { babel: '^5.6.14',
+50 silly resolved        'babel-jest': '^5.3.0',
+50 silly resolved        'babel-eslint': '^3.1.20',
+50 silly resolved        eslint: '^0.24.0',
+50 silly resolved        'eslint-plugin-react': '^2.6.4',
+50 silly resolved        'jest-cli': '^0.4.15',
+50 silly resolved        react: '>=0.13.3' },
+50 silly resolved     jest:
+50 silly resolved      { unmockedModulePathPatterns: [Object],
+50 silly resolved        scriptPreprocessor: '<rootDir>/node_modules/babel-jest',
+50 silly resolved        testFileExtensions: [Object],
+50 silly resolved        moduleFileExtensions: [Object] },
+50 silly resolved     license: 'MIT',
+50 silly resolved     dependencies: { exenv: '^1.2.0' },
+50 silly resolved     gitHead: '75aa7dad0a2ba03ad755a97efe3193bdcf76b3a3',
+50 silly resolved     bugs: { url: 'https://github.com/nikgraf/belle/issues' },
+50 silly resolved     homepage: 'https://github.com/nikgraf/belle#readme',
+50 silly resolved     _id: 'belle@1.2.2',
+50 silly resolved     _shasum: '7e1430ca051e18bf12a4a6ce0350689694406bbe',
+50 silly resolved     _from: 'belle@',
+50 silly resolved     _npmVersion: '2.13.0',
+50 silly resolved     _nodeVersion: '2.4.0',
+50 silly resolved     _npmUser: { name: 'nikgraf', email: 'nik@nikgraf.com' },
+50 silly resolved     maintainers: [ [Object] ],
+50 silly resolved     dist:
+50 silly resolved      { shasum: '7e1430ca051e18bf12a4a6ce0350689694406bbe',
+50 silly resolved        tarball: 'http://registry.npmjs.org/belle/-/belle-1.2.2.tgz' },
+50 silly resolved     directories: {},
+50 silly resolved     _resolved: 'https://registry.npmjs.org/belle/-/belle-1.2.2.tgz' } ]
+51 info install belle@1.2.2 into /Users/ryanherlihy/school/cs320/ui/mockups1
+52 info installOne belle@1.2.2
+53 verbose node_modules/belle unbuild
+54 verbose tar unpack /Users/ryanherlihy/.npm/belle/1.2.2/package.tgz
+55 silly lockFile 7e1cccc2-0-ui-mockups1-node-modules-belle tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle
+56 verbose lock tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle /Users/ryanherlihy/.npm/7e1cccc2-0-ui-mockups1-node-modules-belle.lock
+57 silly lockFile eff3909e-lihy-npm-belle-1-2-2-package-tgz tar:///Users/ryanherlihy/.npm/belle/1.2.2/package.tgz
+58 verbose lock tar:///Users/ryanherlihy/.npm/belle/1.2.2/package.tgz /Users/ryanherlihy/.npm/eff3909e-lihy-npm-belle-1-2-2-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry .npmignore
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm extractEntry LICENSE
+64 silly gunzTarPerm extractEntry .eslintrc
+65 silly gunzTarPerm extractEntry lib/index.js
+66 silly gunzTarPerm extractEntry lib/components/Button.js
+67 silly gunzTarPerm extractEntry lib/components/ComboBox.js
+68 silly gunzTarPerm extractEntry lib/components/DatePicker.js
+69 silly gunzTarPerm extractEntry lib/components/Option.js
+70 silly gunzTarPerm extractEntry lib/components/Choice.js
+71 silly gunzTarPerm extractEntry lib/components/Popover.js
+72 silly gunzTarPerm extractEntry lib/components/Rating.js
+73 silly gunzTarPerm extractEntry lib/components/Select.js
+74 silly gunzTarPerm extractEntry lib/components/Separator.js
+75 silly gunzTarPerm extractEntry lib/components/TextInput.js
+76 silly gunzTarPerm extractEntry lib/components/Card.js
+77 silly gunzTarPerm extractEntry lib/components/Toggle.js
+78 silly gunzTarPerm extractEntry lib/components/Placeholder.js
+79 silly gunzTarPerm extractEntry lib/config/button.js
+80 silly gunzTarPerm extractEntry lib/config/datePicker.js
+81 silly gunzTarPerm extractEntry lib/config/rating.js
+82 silly gunzTarPerm extractEntry lib/config/select.js
+83 silly gunzTarPerm extractEntry lib/config/toggle.js
+84 silly gunzTarPerm extractEntry lib/style/animations.js
+85 silly gunzTarPerm extractEntry lib/style/card.js
+86 silly gunzTarPerm extractEntry lib/style/combo-box.js
+87 silly gunzTarPerm extractEntry lib/style/date-picker.js
+88 silly gunzTarPerm extractEntry lib/style/option.js
+89 silly gunzTarPerm extractEntry lib/style/button.js
+90 silly gunzTarPerm extractEntry lib/style/rating.js
+91 silly gunzTarPerm extractEntry lib/style/select.js
+92 silly gunzTarPerm extractEntry lib/style/separator.js
+93 silly gunzTarPerm extractEntry lib/style/text-input.js
+94 silly gunzTarPerm extractEntry lib/style/toggle.js
+95 silly gunzTarPerm extractEntry lib/style/placeholder.js
+96 silly gunzTarPerm extractEntry lib/utils/animation-frame-management.js
+97 silly gunzTarPerm extractEntry lib/utils/calculate-textarea-height.js
+98 silly gunzTarPerm extractEntry lib/utils/date-helpers.js
+99 silly gunzTarPerm extractEntry lib/utils/helpers.js
+100 silly gunzTarPerm extractEntry lib/utils/inject-style.js
+101 silly gunzTarPerm extractEntry lib/utils/is-component-of-type.js
+102 silly gunzTarPerm extractEntry lib/utils/union-class-names.js
+103 silly gunzTarPerm extractEntry lib/vendor/react/lib/AutoFocusMixin.js
+104 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactPropTypeLocationNames.js
+105 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactPropTypeLocations.js
+106 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactPropTypes.js
+107 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactPropTransferer.js
+108 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactReconcileTransaction.js
+109 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactReconciler.js
+110 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactRef.js
+111 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactRootIndex.js
+112 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactServerRendering.js
+113 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactPerf.js
+114 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactServerRenderingTransaction.js
+115 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactOwner.js
+116 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactStateSetters.js
+117 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactNativeComponent.js
+118 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactTestUtils.js
+119 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactMultiChildUpdateTypes.js
+120 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactTransitionChildMapping.js
+121 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactMultiChild.js
+122 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactTransitionEvents.js
+123 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactMount.js
+124 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactTransitionGroup.js
+125 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactMarkupChecksum.js
+126 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactUpdateQueue.js
+127 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactLink.js
+128 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactUpdates.js
+129 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactLifeCycle.js
+130 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactWithAddons.js
+131 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactInstanceMap.js
+132 silly gunzTarPerm extractEntry lib/vendor/react/lib/SVGDOMPropertyConfig.js
+133 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactInstanceHandles.js
+134 silly gunzTarPerm extractEntry lib/vendor/react/lib/SelectEventPlugin.js
+135 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactInputSelection.js
+136 silly gunzTarPerm extractEntry lib/vendor/react/lib/ServerReactRootIndex.js
+137 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactInjection.js
+138 silly gunzTarPerm extractEntry lib/vendor/react/lib/SimpleEventPlugin.js
+139 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactFragment.js
+140 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticClipboardEvent.js
+141 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactEventListener.js
+142 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticCompositionEvent.js
+143 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactEventEmitterMixin.js
+144 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticDragEvent.js
+145 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactErrorUtils.js
+146 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticEvent.js
+147 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactEmptyComponent.js
+148 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticFocusEvent.js
+149 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactElementValidator.js
+150 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticInputEvent.js
+151 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactElement.js
+152 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticKeyboardEvent.js
+153 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDefaultPerfAnalysis.js
+154 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticMouseEvent.js
+155 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDefaultPerf.js
+156 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticTouchEvent.js
+157 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDefaultInjection.js
+158 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticUIEvent.js
+159 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDefaultBatchingStrategy.js
+160 silly gunzTarPerm extractEntry lib/vendor/react/lib/SyntheticWheelEvent.js
+161 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMTextarea.js
+162 silly gunzTarPerm extractEntry lib/vendor/react/lib/Transaction.js
+163 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMTextComponent.js
+164 silly gunzTarPerm extractEntry lib/vendor/react/lib/ViewportMetrics.js
+165 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMSelection.js
+166 silly gunzTarPerm extractEntry lib/vendor/react/lib/accumulateInto.js
+167 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMSelect.js
+168 silly gunzTarPerm extractEntry lib/vendor/react/lib/adler32.js
+169 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMOption.js
+170 silly gunzTarPerm extractEntry lib/vendor/react/lib/camelize.js
+171 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMInput.js
+172 silly gunzTarPerm extractEntry lib/vendor/react/lib/camelizeStyleName.js
+173 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMImg.js
+174 silly gunzTarPerm extractEntry lib/vendor/react/lib/cloneWithProps.js
+175 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMIframe.js
+176 silly gunzTarPerm extractEntry lib/vendor/react/lib/containsNode.js
+177 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMIDOperations.js
+178 silly gunzTarPerm extractEntry lib/vendor/react/lib/createArrayFromMixed.js
+179 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMForm.js
+180 silly gunzTarPerm extractEntry lib/vendor/react/lib/createFullPageComponent.js
+181 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMComponent.js
+182 silly gunzTarPerm extractEntry lib/vendor/react/lib/createNodesFromMarkup.js
+183 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOMButton.js
+184 silly gunzTarPerm extractEntry lib/vendor/react/lib/cx.js
+185 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactDOM.js
+186 silly gunzTarPerm extractEntry lib/vendor/react/lib/dangerousStyleValue.js
+187 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactCurrentOwner.js
+188 silly gunzTarPerm extractEntry lib/vendor/react/lib/emptyFunction.js
+189 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactContext.js
+190 silly gunzTarPerm extractEntry lib/vendor/react/lib/emptyObject.js
+191 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactCompositeComponent.js
+192 silly gunzTarPerm extractEntry lib/vendor/react/lib/escapeTextContentForBrowser.js
+193 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactComponentWithPureRenderMixin.js
+194 silly gunzTarPerm extractEntry lib/vendor/react/lib/findDOMNode.js
+195 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactComponentEnvironment.js
+196 silly gunzTarPerm extractEntry lib/vendor/react/lib/flattenChildren.js
+197 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactComponentBrowserEnvironment.js
+198 silly gunzTarPerm extractEntry lib/vendor/react/lib/focusNode.js
+199 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactComponent.js
+200 silly gunzTarPerm extractEntry lib/vendor/react/lib/forEachAccumulated.js
+201 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactClass.js
+202 silly gunzTarPerm extractEntry lib/vendor/react/lib/getActiveElement.js
+203 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactChildren.js
+204 silly gunzTarPerm extractEntry lib/vendor/react/lib/getEventCharCode.js
+205 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactChildReconciler.js
+206 silly gunzTarPerm extractEntry lib/vendor/react/lib/getEventKey.js
+207 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactCSSTransitionGroupChild.js
+208 silly gunzTarPerm extractEntry lib/vendor/react/lib/getEventModifierState.js
+209 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactCSSTransitionGroup.js
+210 silly gunzTarPerm extractEntry lib/vendor/react/lib/getEventTarget.js
+211 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactBrowserEventEmitter.js
+212 silly gunzTarPerm extractEntry lib/vendor/react/lib/getIteratorFn.js
+213 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactBrowserComponentMixin.js
+214 silly gunzTarPerm extractEntry lib/vendor/react/lib/getMarkupWrap.js
+215 silly gunzTarPerm extractEntry lib/vendor/react/lib/React.js
+216 silly gunzTarPerm extractEntry lib/vendor/react/lib/getNodeForCharacterOffset.js
+217 silly gunzTarPerm extractEntry lib/vendor/react/lib/PooledClass.js
+218 silly gunzTarPerm extractEntry lib/vendor/react/lib/getReactRootElementInContainer.js
+219 silly gunzTarPerm extractEntry lib/vendor/react/lib/Object.assign.js
+220 silly gunzTarPerm extractEntry lib/vendor/react/lib/getTextContentAccessor.js
+221 silly gunzTarPerm extractEntry lib/vendor/react/lib/MobileSafariClickEventPlugin.js
+222 silly gunzTarPerm extractEntry lib/vendor/react/lib/getUnboundedScrollPosition.js
+223 silly gunzTarPerm extractEntry lib/vendor/react/lib/LocalEventTrapMixin.js
+224 silly gunzTarPerm extractEntry lib/vendor/react/lib/hyphenate.js
+225 silly gunzTarPerm extractEntry lib/vendor/react/lib/LinkedValueUtils.js
+226 silly gunzTarPerm extractEntry lib/vendor/react/lib/hyphenateStyleName.js
+227 silly gunzTarPerm extractEntry lib/vendor/react/lib/LinkedStateMixin.js
+228 silly gunzTarPerm extractEntry lib/vendor/react/lib/instantiateReactComponent.js
+229 silly gunzTarPerm extractEntry lib/vendor/react/lib/HTMLDOMPropertyConfig.js
+230 silly gunzTarPerm extractEntry lib/vendor/react/lib/invariant.js
+231 silly gunzTarPerm extractEntry lib/vendor/react/lib/FallbackCompositionState.js
+232 silly gunzTarPerm extractEntry lib/vendor/react/lib/isEventSupported.js
+233 silly gunzTarPerm extractEntry lib/vendor/react/lib/ExecutionEnvironment.js
+234 silly gunzTarPerm extractEntry lib/vendor/react/lib/isNode.js
+235 silly gunzTarPerm extractEntry lib/vendor/react/lib/EventPropagators.js
+236 silly gunzTarPerm extractEntry lib/vendor/react/lib/isTextInputElement.js
+237 silly gunzTarPerm extractEntry lib/vendor/react/lib/EventPluginUtils.js
+238 silly gunzTarPerm extractEntry lib/vendor/react/lib/isTextNode.js
+239 silly gunzTarPerm extractEntry lib/vendor/react/lib/EventPluginRegistry.js
+240 silly gunzTarPerm extractEntry lib/vendor/react/lib/joinClasses.js
+241 silly gunzTarPerm extractEntry lib/vendor/react/lib/EventPluginHub.js
+242 silly gunzTarPerm extractEntry lib/vendor/react/lib/keyMirror.js
+243 silly gunzTarPerm extractEntry lib/vendor/react/lib/EventListener.js
+244 silly gunzTarPerm extractEntry lib/vendor/react/lib/keyOf.js
+245 silly gunzTarPerm extractEntry lib/vendor/react/lib/EventConstants.js
+246 silly gunzTarPerm extractEntry lib/vendor/react/lib/mapObject.js
+247 silly gunzTarPerm extractEntry lib/vendor/react/lib/EnterLeaveEventPlugin.js
+248 silly gunzTarPerm extractEntry lib/vendor/react/lib/memoizeStringOnly.js
+249 silly gunzTarPerm extractEntry lib/vendor/react/lib/DefaultEventPluginOrder.js
+250 silly gunzTarPerm extractEntry lib/vendor/react/lib/onlyChild.js
+251 silly gunzTarPerm extractEntry lib/vendor/react/lib/Danger.js
+252 silly gunzTarPerm extractEntry lib/vendor/react/lib/performance.js
+253 silly gunzTarPerm extractEntry lib/vendor/react/lib/DOMPropertyOperations.js
+254 silly gunzTarPerm extractEntry lib/vendor/react/lib/performanceNow.js
+255 silly gunzTarPerm extractEntry lib/vendor/react/lib/DOMProperty.js
+256 silly gunzTarPerm extractEntry lib/vendor/react/lib/quoteAttributeValueForBrowser.js
+257 silly gunzTarPerm extractEntry lib/vendor/react/lib/DOMChildrenOperations.js
+258 silly gunzTarPerm extractEntry lib/vendor/react/lib/setInnerHTML.js
+259 silly gunzTarPerm extractEntry lib/vendor/react/lib/ClientReactRootIndex.js
+260 silly gunzTarPerm extractEntry lib/vendor/react/lib/setTextContent.js
+261 silly gunzTarPerm extractEntry lib/vendor/react/lib/ChangeEventPlugin.js
+262 silly gunzTarPerm extractEntry lib/vendor/react/lib/shallowEqual.js
+263 silly gunzTarPerm extractEntry lib/vendor/react/lib/CallbackQueue.js
+264 silly gunzTarPerm extractEntry lib/vendor/react/lib/shouldUpdateReactComponent.js
+265 silly gunzTarPerm extractEntry lib/vendor/react/lib/CSSPropertyOperations.js
+266 silly gunzTarPerm extractEntry lib/vendor/react/lib/toArray.js
+267 silly gunzTarPerm extractEntry lib/vendor/react/lib/CSSProperty.js
+268 silly gunzTarPerm extractEntry lib/vendor/react/lib/traverseAllChildren.js
+269 silly gunzTarPerm extractEntry lib/vendor/react/lib/CSSCore.js
+270 silly gunzTarPerm extractEntry lib/vendor/react/lib/update.js
+271 silly gunzTarPerm extractEntry lib/vendor/react/lib/BeforeInputEventPlugin.js
+272 silly gunzTarPerm extractEntry lib/vendor/react/lib/warning.js
+273 silly gunzTarPerm extractEntry lib/vendor/react/lib/ReactPutListenerQueue.js
+274 silly gunzTarPerm extractEntry CHANGELOG.md
+275 silly gunzTarPerm extractEntry scripts/publish_gh_pages.sh
+276 silly lockFile 7e1cccc2-0-ui-mockups1-node-modules-belle tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle
+277 silly lockFile 7e1cccc2-0-ui-mockups1-node-modules-belle tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle
+278 silly lockFile eff3909e-lihy-npm-belle-1-2-2-package-tgz tar:///Users/ryanherlihy/.npm/belle/1.2.2/package.tgz
+279 silly lockFile eff3909e-lihy-npm-belle-1-2-2-package-tgz tar:///Users/ryanherlihy/.npm/belle/1.2.2/package.tgz
+280 info preinstall belle@1.2.2
+281 verbose readDependencies using package.json deps
+282 verbose readDependencies using package.json deps
+283 verbose cache add [ 'exenv@^1.2.0', null ]
+284 verbose cache add name=undefined spec="exenv@^1.2.0" args=["exenv@^1.2.0",null]
+285 verbose parsed url { protocol: null,
+285 verbose parsed url   slashes: null,
+285 verbose parsed url   auth: null,
+285 verbose parsed url   host: null,
+285 verbose parsed url   port: null,
+285 verbose parsed url   hostname: null,
+285 verbose parsed url   hash: null,
+285 verbose parsed url   search: null,
+285 verbose parsed url   query: null,
+285 verbose parsed url   pathname: 'exenv@^1.2.0',
+285 verbose parsed url   path: 'exenv@^1.2.0',
+285 verbose parsed url   href: 'exenv@^1.2.0' }
+286 verbose cache add name="exenv" spec="^1.2.0" args=["exenv","^1.2.0"]
+287 verbose parsed url { protocol: null,
+287 verbose parsed url   slashes: null,
+287 verbose parsed url   auth: null,
+287 verbose parsed url   host: null,
+287 verbose parsed url   port: null,
+287 verbose parsed url   hostname: null,
+287 verbose parsed url   hash: null,
+287 verbose parsed url   search: null,
+287 verbose parsed url   query: null,
+287 verbose parsed url   pathname: '^1.2.0',
+287 verbose parsed url   path: '^1.2.0',
+287 verbose parsed url   href: '^1.2.0' }
+288 verbose addNamed [ 'exenv', '^1.2.0' ]
+289 verbose addNamed [ null, '>=1.2.0-0 <2.0.0-0' ]
+290 silly lockFile 42d0d819-exenv-1-2-0 exenv@^1.2.0
+291 verbose lock exenv@^1.2.0 /Users/ryanherlihy/.npm/42d0d819-exenv-1-2-0.lock
+292 silly addNameRange { name: 'exenv', range: '>=1.2.0-0 <2.0.0-0', hasData: false }
+293 verbose request where is /exenv
+294 verbose request registry https://registry.npmjs.org/
+295 verbose url raw /exenv
+296 verbose url resolving [ 'https://registry.npmjs.org/', './exenv' ]
+297 verbose url resolved https://registry.npmjs.org/exenv
+298 verbose request where is https://registry.npmjs.org/exenv
+299 info trying registry request attempt 1 at 22:01:24
+300 http GET https://registry.npmjs.org/exenv
+301 http 200 https://registry.npmjs.org/exenv
+302 silly registry.get cb [ 200,
+302 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+302 silly registry.get     etag: '"CNPE45OXJHXZ5UFAHR36P9FVP"',
+302 silly registry.get     'content-type': 'application/json',
+302 silly registry.get     'cache-control': 'max-age=60',
+302 silly registry.get     'content-length': '5178',
+302 silly registry.get     'accept-ranges': 'bytes',
+302 silly registry.get     date: 'Sun, 11 Oct 2015 02:01:24 GMT',
+302 silly registry.get     via: '1.1 varnish',
+302 silly registry.get     age: '0',
+302 silly registry.get     connection: 'keep-alive',
+302 silly registry.get     'x-served-by': 'cache-iad2148-IAD',
+302 silly registry.get     'x-cache': 'MISS',
+302 silly registry.get     'x-cache-hits': '0',
+302 silly registry.get     'x-timer': 'S1444528884.133145,VS0,VE372',
+302 silly registry.get     vary: 'Accept' } ]
+303 silly addNameRange number 2 { name: 'exenv', range: '>=1.2.0-0 <2.0.0-0', hasData: true }
+304 silly addNameRange versions [ 'exenv', [ '1.0.0', '1.1.0', '1.2.0' ] ]
+305 verbose addNamed [ 'exenv', '1.2.0' ]
+306 verbose addNamed [ '1.2.0', '1.2.0' ]
+307 silly lockFile d0f9e377-exenv-1-2-0 exenv@1.2.0
+308 verbose lock exenv@1.2.0 /Users/ryanherlihy/.npm/d0f9e377-exenv-1-2-0.lock
+309 silly lockFile cbc15367--npmjs-org-exenv-exenv-1-2-0-tgz https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz
+310 verbose lock https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz /Users/ryanherlihy/.npm/cbc15367--npmjs-org-exenv-exenv-1-2-0-tgz.lock
+311 verbose addRemoteTarball [ 'https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz',
+311 verbose addRemoteTarball   '3835f127abf075bfe082d0aed4484057c78e3c89' ]
+312 info retry fetch attempt 1 at 22:01:24
+313 verbose fetch to= /var/folders/w0/pznz2pbj0_sctqk0p8df6t0m0000gn/T/npm-8544-7ePjdzv2/registry.npmjs.org/exenv/-/exenv-1.2.0.tgz
+314 http GET https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz
+315 http 200 https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz
+316 silly lockFile cbc15367--npmjs-org-exenv-exenv-1-2-0-tgz https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz
+317 silly lockFile cbc15367--npmjs-org-exenv-exenv-1-2-0-tgz https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz
+318 silly lockFile d0f9e377-exenv-1-2-0 exenv@1.2.0
+319 silly lockFile d0f9e377-exenv-1-2-0 exenv@1.2.0
+320 silly lockFile 42d0d819-exenv-1-2-0 exenv@^1.2.0
+321 silly lockFile 42d0d819-exenv-1-2-0 exenv@^1.2.0
+322 silly resolved [ { name: 'exenv',
+322 silly resolved     version: '1.2.0',
+322 silly resolved     description: 'React\'s ExecutionEnvironment module extracted for use in other packages & components',
+322 silly resolved     main: 'index.js',
+322 silly resolved     scripts: { test: 'echo "See React tests" && exit 0' },
+322 silly resolved     repository: { type: 'git', url: 'https://github.com/JedWatson/exenv.git' },
+322 silly resolved     keywords:
+322 silly resolved      [ 'react',
+322 silly resolved        'browser',
+322 silly resolved        'server',
+322 silly resolved        'environment',
+322 silly resolved        'env',
+322 silly resolved        'execution',
+322 silly resolved        'executionenvironment' ],
+322 silly resolved     author: { name: 'Jed Watson' },
+322 silly resolved     license: 'BSD',
+322 silly resolved     bugs: { url: 'https://github.com/JedWatson/exenv/issues' },
+322 silly resolved     homepage: 'https://github.com/JedWatson/exenv',
+322 silly resolved     gitHead: 'bf84d0a7782fd824a1d94ed612067b1e0d080d2e',
+322 silly resolved     _id: 'exenv@1.2.0',
+322 silly resolved     _shasum: '3835f127abf075bfe082d0aed4484057c78e3c89',
+322 silly resolved     _from: 'exenv@^1.2.0',
+322 silly resolved     _npmVersion: '2.7.5',
+322 silly resolved     _nodeVersion: '0.12.2',
+322 silly resolved     _npmUser: { name: 'jedwatson', email: 'jed.watson@me.com' },
+322 silly resolved     dist:
+322 silly resolved      { shasum: '3835f127abf075bfe082d0aed4484057c78e3c89',
+322 silly resolved        tarball: 'http://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz' },
+322 silly resolved     maintainers: [ [Object] ],
+322 silly resolved     directories: {},
+322 silly resolved     _resolved: 'https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz' } ]
+323 info install exenv@1.2.0 into /Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle
+324 info installOne exenv@1.2.0
+325 verbose node_modules/belle/node_modules/exenv unbuild
+326 verbose tar unpack /Users/ryanherlihy/.npm/exenv/1.2.0/package.tgz
+327 silly lockFile 43e1810e-modules-belle-node-modules-exenv tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules/exenv
+328 verbose lock tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules/exenv /Users/ryanherlihy/.npm/43e1810e-modules-belle-node-modules-exenv.lock
+329 silly lockFile 44e41c22-lihy-npm-exenv-1-2-0-package-tgz tar:///Users/ryanherlihy/.npm/exenv/1.2.0/package.tgz
+330 verbose lock tar:///Users/ryanherlihy/.npm/exenv/1.2.0/package.tgz /Users/ryanherlihy/.npm/44e41c22-lihy-npm-exenv-1-2-0-package-tgz.lock
+331 silly gunzTarPerm modes [ '755', '644' ]
+332 silly gunzTarPerm extractEntry package.json
+333 silly gunzTarPerm extractEntry README.md
+334 silly gunzTarPerm extractEntry LICENSE
+335 silly gunzTarPerm extractEntry index.js
+336 silly lockFile 43e1810e-modules-belle-node-modules-exenv tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules/exenv
+337 silly lockFile 43e1810e-modules-belle-node-modules-exenv tar:///Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules/exenv
+338 silly lockFile 44e41c22-lihy-npm-exenv-1-2-0-package-tgz tar:///Users/ryanherlihy/.npm/exenv/1.2.0/package.tgz
+339 silly lockFile 44e41c22-lihy-npm-exenv-1-2-0-package-tgz tar:///Users/ryanherlihy/.npm/exenv/1.2.0/package.tgz
+340 info preinstall exenv@1.2.0
+341 verbose readDependencies using package.json deps
+342 verbose readDependencies using package.json deps
+343 silly resolved []
+344 verbose about to build /Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules/exenv
+345 info build /Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules/exenv
+346 verbose linkStuff [ false,
+346 verbose linkStuff   false,
+346 verbose linkStuff   false,
+346 verbose linkStuff   '/Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle/node_modules' ]
+347 info linkStuff exenv@1.2.0
+348 verbose linkBins exenv@1.2.0
+349 verbose linkMans exenv@1.2.0
+350 verbose rebuildBundles exenv@1.2.0
+351 info install exenv@1.2.0
+352 info postinstall exenv@1.2.0
+353 verbose about to build /Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle
+354 info build /Users/ryanherlihy/school/cs320/ui/mockups1/node_modules/belle
+355 verbose linkStuff [ false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   '/Users/ryanherlihy/school/cs320/ui/mockups1/node_modules' ]
+356 info linkStuff belle@1.2.2
+357 verbose linkBins belle@1.2.2
+358 verbose linkMans belle@1.2.2
+359 verbose rebuildBundles belle@1.2.2
+360 verbose rebuildBundles [ 'exenv' ]
+361 info install belle@1.2.2
+362 info postinstall belle@1.2.2
+363 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+363 error peerinvalid Peer react-tap-event-plugin@0.1.8 wants react@^0.14.0-0 || ~0.13.x || ~0.12.x
+363 error peerinvalid Peer belle@1.2.2 wants react@>=0.13.0 || ^0.14.0-beta3
+363 error peerinvalid Peer material-ui@0.12.3 wants react@~0.13
+364 error System Darwin 14.3.0
+365 error command "/Users/ryanherlihy/.nvm/v0.10.40/bin/node" "/Users/ryanherlihy/.nvm/v0.10.40/bin/npm" "install" "--save" "belle"
+366 error cwd /Users/ryanherlihy/school/cs320/ui/mockups1
+367 error node -v v0.10.40
+368 error npm -v 1.4.28
+369 error code EPEERINVALID
+370 verbose exit [ 1, true ]
