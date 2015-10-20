@@ -17,11 +17,12 @@ class Scene extends Component {
               <li>Scene 7</li>
               <li>Scene 8</li>
             </ul>
+            <div>
+              <button className='btn btn-primary pull-left'>Upload</button>
+              <button className='btn btn-default pull-right'>Preview</button>
+            </div>
           </div>
-          <div className='panel-footer'>
-            <button className='btn btn-primary pull-left'>Upload</button>
-            <button className='btn btn-default pull-right'>Preview</button>
-          </div>
+
         </div>
       </div>
     )

@@ -9,7 +9,9 @@ class App extends Component {
             <h2>Molecular Playground</h2>
           </div>
         </nav>
-        {this.props.children}
+        <div className='container'>
+          {this.props.children}
+        </div>
       </div>
     )
   }

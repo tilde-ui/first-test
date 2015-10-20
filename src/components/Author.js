@@ -5,10 +5,8 @@ class Author extends Component {
   render() {
     return (
       <div>
-        <div className='container'>
-          <h2>Author</h2>
-          <Scene />
-        </div>
+        <h2>Author</h2>
+        <Scene />
       </div>
     )
   }
