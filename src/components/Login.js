@@ -4,21 +4,28 @@ import {Link} from 'react-router';
 class Login extends Component {
   render() {
     return (
-      <div>
-        <nav className='navbar navbar-default'>
-          <div className='container'>Molecular Playground</div>
-        </nav>
-        <div className='panel panel-default col-md-6 col-md-offset-3'>
-          <div className='panel-heading'>Login</div>
+      <div className='col-md-4 col-md-offset-4'>
+        <div className='panel panel-default'>
+          <div className='panel-heading lead'>Login</div>
           <div className='panel-body'>
-            <div className='input-group input-group-lg'>
+            <div className='form-group'>
               <input type='text' className='form-control' placeholder='Username or Email' />
             </div>
-            <div className='input-group input-group-lg'>
+            <div className='form-group'>
               <input type='text' className='form-control' placeholder='Password' />
             </div>
-            <button><Link to='/author'>Login</Link></button>
-            <button>Create New Account</button>
+            <div className='form-group'>
+              <Link to='/author'>
+                <button
+                  className='btn btn-primary col-md-6 col-md-offset-3'>
+                  Login</button>
+                </Link>
+            </div>
+            <div className='form-group'>
+              <button
+                className='btn btn-default col-md-6 col-md-offset-3'>
+                Create New Account</button>
+            </div>
           </div>
         </div>
       </div>

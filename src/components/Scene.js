@@ -5,7 +5,7 @@ class Scene extends Component {
     return (
       <div className='col-md-4 col-md-offset-4'>
         <div className='panel panel-default'>
-          <div className='panel-heading'>My Scenes</div>
+          <div className='panel-heading lead'>My Scenes</div>
           <div className='panel-body'>
             <ul>
               <li>Scene 1</li>
