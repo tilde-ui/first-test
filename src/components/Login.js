@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router';
 
 class Login extends Component {
+  login() {
+    
+  }
   render() {
     return (
       <div className='col-md-6 col-md-offset-3'>

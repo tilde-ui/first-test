@@ -1,7 +1,25 @@
-import React, {Component} from 'react';
+import React, {Component, Children} from 'react';
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      role: 'author'
+    }
+  }
+
+  changeRole(newRole) {
+    this.setState({
+      role: newRole
+    })
+  }
+
   render() {
+    let childrenWithProps = Children.map(this.props.children, (child) => {
+      return React.cloneElement(child, {changeRole: this.changeRole.bind(this)})
+    })
+
     return (
       <div>
         <nav className='navbar navbar-default'>
@@ -10,7 +28,7 @@ class App extends Component {
           </div>
         </nav>
         <div className='container'>
-          {this.props.children}
+          {childrenWithProps}
         </div>
       </div>
     )
