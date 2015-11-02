@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import {Link} from 'react-router';
+
 class Organizations extends Component {
   render() {
     return (
@@ -53,7 +55,9 @@ class Organizations extends Component {
             </table>
           </div>
           <div className='row'>
-            <button className='btn'>Create New Organization</button>
+            <Link to='/createOrganization'>
+              <button className='btn'>Create New Organization</button>
+            </Link>
           </div>
         </div>
       </div>

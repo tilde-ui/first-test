@@ -39,7 +39,7 @@ class Account extends Component {
                   </Link>
                 </div>
                 <div className='col m6'>
-                  <Link to='/global'>
+                  <Link to='/dashboard/global'>
                     <button className='btn col m12'>Cancel</button>
                   </Link>
                 </div>

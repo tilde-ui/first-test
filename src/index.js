@@ -12,6 +12,7 @@ import Organizations from './components/Organizations';
 import Installation from './components/Installation';
 import Account from './components/Account';
 import UploadScene from './components/UploadScene';
+import CreateOrganization from './components/CreateOrganization';
 
 ReactDOM.render(
   (
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route path='installation' component={Installation} />
         <Route path='account' component={Account} />
         <Route path='upload' component={UploadScene} />
+        <Route path='createOrganization' component={CreateOrganization} />
       </Route>
     </Router>
   ),
