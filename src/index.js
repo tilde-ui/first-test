@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import Author from './components/Author';
 import GlobalAdmin from './components/GlobalAdmin';
 import Register from './components/Register';
+import AdvancedSearch from './components/AdvancedSearch';
 
 ReactDOM.render(
   (
@@ -18,6 +19,7 @@ ReactDOM.render(
           <Route path='author' component={Author} />
           <Route path='global' component={GlobalAdmin} />
         </Route>
+        <Route path='advancedSearch' component={AdvancedSearch} />
       </Route>
     </Router>
   ),

@@ -3,11 +3,17 @@ module.exports = {
     './src/index.js'
   ],
   module: {
-    loaders: [{
-      test: /\.js?$/,
-      exclude: /node_modules/,
-      loader: 'react-hot!babel'
-    }]
+    loaders: [
+      {
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        loader: 'react-hot!babel'
+      },
+      {
+        test:/\.css$/,
+        loader: 'style-loader!css-loader'
+      }
+    ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']

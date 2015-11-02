@@ -1,5 +1,7 @@
 import React, {Component, Children} from 'react';
 
+import {Link} from 'react-router';
+
 class App extends Component {
   constructor() {
     super();
@@ -27,12 +29,13 @@ class App extends Component {
     return (
       <div id='backdrop'>
         <nav>
-          <div className='nav-wrapper'>
-            <span>Molecular Playground</span>
-            <ul className="right hide-on-med-and-down">
-              <li>Organizations</li>
-              <li>Installation</li>
-              <li>Account</li>
+          <div className="nav-wrapper">
+            <a href="#" className="brand-logo">Molecular Playground</a>
+            <ul id="nav-mobile" className="right hide-on-med-and-down">
+              <li><Link to='/advancedSearch'>Advanced Search</Link></li>
+              <li><a>Organizations</a></li>
+              <li><a>Installation</a></li>
+              <li><a>Account</a></li>
             </ul>
           </div>
         </nav>
