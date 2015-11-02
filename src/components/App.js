@@ -33,8 +33,8 @@ class App extends Component {
             <a href="#" className="brand-logo">Molecular Playground</a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to='/advancedSearch'>Advanced Search</Link></li>
-              <li><a>Organizations</a></li>
-              <li><a>Installation</a></li>
+              <li><Link to='/installation'>Organizations</Link></li>
+              <li><Link to='/installation'>Installation</Link></li>
               <li><a>Account</a></li>
             </ul>
           </div>

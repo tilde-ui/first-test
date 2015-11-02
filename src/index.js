@@ -8,6 +8,7 @@ import Author from './components/Author';
 import GlobalAdmin from './components/GlobalAdmin';
 import Register from './components/Register';
 import AdvancedSearch from './components/AdvancedSearch';
+import Installation from './components/Installation';
 
 ReactDOM.render(
   (
@@ -20,6 +21,7 @@ ReactDOM.render(
           <Route path='global' component={GlobalAdmin} />
         </Route>
         <Route path='advancedSearch' component={AdvancedSearch} />
+        <Route path='installation' component={Installation} />
       </Route>
     </Router>
   ),
