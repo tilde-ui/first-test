@@ -9,6 +9,10 @@ class App extends Component {
     }
   }
 
+  componentWillMount() {
+    $(".button-collapse").sideNav();
+  }
+
   changeRole(newRole) {
     this.setState({
       role: newRole
@@ -17,14 +21,19 @@ class App extends Component {
 
   render() {
     let childrenWithProps = Children.map(this.props.children, (child) => {
-      return React.cloneElement(child, {changeRole: this.changeRole.bind(this)})
+      return React.cloneElement(child, {changeRole: this.changeRole.bind(this), role: this.state.role})
     })
 
     return (
-      <div>
-        <nav className='navbar navbar-default'>
-          <div className='container'>
-            <h2>Molecular Playground</h2>
+      <div id='backdrop'>
+        <nav>
+          <div className='nav-wrapper'>
+            <span>Molecular Playground</span>
+            <ul className="right hide-on-med-and-down">
+              <li>Organizations</li>
+              <li>Installation</li>
+              <li>Account</li>
+            </ul>
           </div>
         </nav>
         <div className='container'>

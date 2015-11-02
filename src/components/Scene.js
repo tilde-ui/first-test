@@ -3,26 +3,29 @@ import React, {Component} from 'react';
 class Scene extends Component {
   render() {
     return (
-      <div className='col-md-6 col-md-offset-3'>
-        <div className='panel panel-default'>
-          <div className='panel-heading lead'>My Scenes</div>
-          <div className='panel-body'>
-            <ul>
-              <li>Scene 1</li>
-              <li>Scene 2</li>
-              <li>Scene 3</li>
-              <li>Scene 4</li>
-              <li>Scene 5</li>
-              <li>Scene 6</li>
-              <li>Scene 7</li>
-              <li>Scene 8</li>
-            </ul>
-            <div>
-              <button className='btn btn-primary pull-left'>Upload</button>
-              <button className='btn btn-default pull-right'>Preview</button>
+      <div className='card'>
+        <div className='card-content'>
+          <span className='card-title black-text'>My Scenes</span>
+          <ul className='collection' style={{height: 300}}>
+            <li className='collection-item'>Scene 1</li>
+            <li className='collection-item'>Scene 2</li>
+            <li className='collection-item'>Scene 3</li>
+            <li className='collection-item'>Scene 4</li>
+            <li className='collection-item'>Scene 5</li>
+            <li className='collection-item'>Scene 6</li>
+            <li className='collection-item'>Scene 7</li>
+            <li className='collection-item'>Scene 8</li>
+          </ul>
+          <div className='row'>
+            <div className='col m12'>
+              <button className='btn col m12'>Preview</button>
             </div>
           </div>
-
+          <div className='row'>
+            <div className='col m12'>
+              <button className='btn col m12'>Upload</button>
+            </div>
+          </div>
         </div>
       </div>
     )
