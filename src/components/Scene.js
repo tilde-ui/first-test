@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import {Link} from 'react-router';
+
 import ScenePreview from './ScenePreview';
 
 class Scene extends Component {
@@ -48,7 +50,9 @@ class Scene extends Component {
           </div>
           <div className='row'>
             <div className='col m12'>
-              <button className='btn col m12'>Upload</button>
+              <Link to='/upload'>
+                <button className='btn col m12'>Upload</button>
+              </Link>
             </div>
           </div>
         </div>

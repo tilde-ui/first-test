@@ -27,9 +27,9 @@ class AdvancedSearch extends Component {
             <table>
               <thead>
                 <tr>
-                    <th dataField="id">Molecule</th>
-                    <th dataField="name">Author</th>
-                    <th dataField="price">Date Uploaded</th>
+                    <th>Molecule</th>
+                    <th>Author</th>
+                    <th>Date Uploaded</th>
                 </tr>
               </thead>
 

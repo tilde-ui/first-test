@@ -8,7 +8,10 @@ import Author from './components/Author';
 import GlobalAdmin from './components/GlobalAdmin';
 import Register from './components/Register';
 import AdvancedSearch from './components/AdvancedSearch';
+import Organizations from './components/Organizations';
 import Installation from './components/Installation';
+import Account from './components/Account';
+import UploadScene from './components/UploadScene';
 
 ReactDOM.render(
   (
@@ -21,7 +24,10 @@ ReactDOM.render(
           <Route path='global' component={GlobalAdmin} />
         </Route>
         <Route path='advancedSearch' component={AdvancedSearch} />
+        <Route path='organizations' component={Organizations} />
         <Route path='installation' component={Installation} />
+        <Route path='account' component={Account} />
+        <Route path='upload' component={UploadScene} />
       </Route>
     </Router>
   ),
