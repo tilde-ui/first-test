@@ -1,3 +1,4 @@
-#backdrop {
+body {
   background-image: url('../images/isb.jpg');
+  background-size: cover;
 }

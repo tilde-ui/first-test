@@ -1,6 +1,8 @@
 import React, {Component, Children} from 'react';
 
-import {Link} from 'react-router';
+import Navigation from './Navigation';
+
+// import '../styles/style.css';
 
 class App extends Component {
   constructor() {
@@ -28,18 +30,8 @@ class App extends Component {
 
     return (
       <div id='backdrop'>
-        <nav>
-          <div className="nav-wrapper">
-            <a href="#" className="brand-logo">Molecular Playground</a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><Link to='/advancedSearch'>Advanced Search</Link></li>
-              <li><Link to='/organizations'>Organizations</Link></li>
-              <li><Link to='/installation'>Installation</Link></li>
-              <li><Link to='/account'>Account</Link></li>
-            </ul>
-          </div>
-        </nav>
-        <div className='container'>
+        <Navigation />
+        <div className='container' style={{marginTop: 20}}>
           {childrenWithProps}
         </div>
       </div>

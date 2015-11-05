@@ -9,12 +9,12 @@ class Login extends Component {
   render() {
     return (
       <div className='row'>
-        <div className='col m6 offset-m3'>
+        <div className='col m6 s12 offset-m3'>
           <div className='card'>
             <div className='card-content'>
               <span className='card-title black-text'>Login</span>
               <div className='input-field'>
-                <input ref={(ref) => this.username = ref} type='text' className='form-control' placeholder='Username or Email' />
+                <input ref={(ref) => this.username = ref} type='text' className='form-control' placeholder='Email' />
               </div>
               <div className='input-field'>
                 <input type='text' className='form-control' placeholder='Password' />

@@ -17,6 +17,7 @@ class CreateOrganization extends Component {
                   </div>
                 </div>
                 <div className='col m12'>
+                  <p className='center-align'>Select Users for Local Administrator</p>
                   <form action="#">
                     <p>
                       <input type="checkbox" id="user1" />
