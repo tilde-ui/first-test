@@ -18,7 +18,7 @@ class Playlist extends Component {
           </ul>
           <div className='row'>
             <div className='col m6'>
-              <button className='btn col m12'>View</button>
+              <button className='btn col m12'>Edit</button>
             </div>
             <div className='col m6'>
               <button className='btn col m12'>Preview</button>

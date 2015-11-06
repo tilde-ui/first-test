@@ -1,4 +1,8 @@
 body {
-  background-image: url('../images/isb.jpg');
-  background-size: cover;
+  /*background-image: url('../images/isb.jpg');
+  background-size: cover;*/
+}
+
+.card-header {
+  min-height: 50px;
 }
